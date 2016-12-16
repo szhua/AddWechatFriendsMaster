@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory
+    android:title="@string/setting_fragment_title"
+    >
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="微信"
+        android:icon="@drawable/settings_ic_wechat"
+        android:key="KEY_ENABLE_WECHAT"
+        ></SwitchPreference>
+    <Preference
+        android:defaultValue="false"
+        android:title="打开微信"
+        android:key="KEY_START_WECHAT"
+        ></Preference>
+
+</PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="关于">
+        <Preference
+            android:title="@string/follow_preference_title"
+            android:summary="@string/follow_preference_summary"
+            android:key="KEY_ABOUT_THIS"/>
+        <Preference
+            android:title="@string/follow_preference_title"
+            android:summary="@string/follow_preference_summary"
+            android:key="KEY_ABOUT_THIS"/>
+
+    </PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>
+
+

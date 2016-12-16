@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">自动添加好友</string>
+    <string name="service_connected">已经连接至添加微信好友的服务</string>
+    <string name="get_permission_for_accessibility">找到无障碍,点击按钮\n然后打开\n自动添加好友</string>
+    <string name="setting_fragment_title">微信自动添加好友</string>
+    <string name="follow_preference_title">关于本软件</string>
+    <string name="accessibility_description">自动添加好友动能\n支持微信\n版本待定···</string>
+    <string name="follow_preference_summary">自动添加好友</string>
+</resources>
